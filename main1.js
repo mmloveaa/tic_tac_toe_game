@@ -21,27 +21,6 @@ var dataArray=[0,1,2,3,4,5,6,7,8];
 // 	console.log(currentBoxNum[i])
 // }
 
-// for(var i=0; i<currentBoxNum.length; )
-// console.log("currentBoxNum: ", currentBoxNum)
-// console.log("currentBoxNum index: " , currentBoxNum);
-// var childNum 
-// console.log("childNum: ", childNum);
-
-// var g = document.getElementsByClassName('box');
-// for (var i = 0, len = g.children.length; i < len; i++)
-// {
- 
-//    (function(index){
-//        g.children[i].onclick = function(){
-//              alert(index)  ;
-//        }    
-//    })(i);
-   
-//    console.log('index: ', index)
-// }
-
-
-
 document.addEventListener('DOMContentLoaded', init);
 
 function init() {
@@ -50,10 +29,6 @@ function init() {
     turn = Math.floor(Math.random() * 2);
     // whoIsPlaying();
 }
-
-// function listener(){
-// 	for (var i = currentBoxNum.length)
-// }
 
 function turnTaken() {
     // var currentBoxNum = event.target.getAttribute("data-num");
@@ -113,20 +88,3 @@ function reset() {
     location.reload();
 }
 
- // //we know this current sub-array contains the currentboxnum so lets loop through it
-
-        // for (var j = 0; j < 3; j++) {
-        //     if (currentArr.indexOf(currentBoxNum) !== -1) {
-        //         //var currentWinNumPawnVal =  get the box with the data-num of currentboxnum, then get its data-pawn value
-        //         winCounter++;
-
-        //             if (currentWinNumPawnVal === turnToggle) {
-        //                 winCounter++
-
-        //                 if (winCounter === 3) {
-        //                     hasWon();
-        //                 }
-
-        //             }
-        //     }
-        // }
