@@ -18,6 +18,18 @@
 	margin: 1;
 	padding: 0;
 	background-color: #dbdbce;
-  	display: inline-block;
+  display: inline-block;
 }
 
+.winner{
+  font-size: 40px;
+  height: 100px;
+  background-color: #bbf7e0;
+}
+
+.mark{
+  text-align: center;
+  color: white;
+  font-size: 100px;
+  font-weight: bold;
+}
